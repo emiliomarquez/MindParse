@@ -1,0 +1,324 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 20px;
+} */
+li.todoItem{
+    width: 50%;
+
+}
+li.todoItemChecked{
+    width: 50%;
+    text-decoration: line-through;
+}
+
+div.button-space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button.button.flex{
+    flex: 1 1 auto;
+    margin: 1em;
+}
+button.options{
+    height: 15px;
+    /* width: 10px; */
+    text-align: center;
+    border: none;
+    padding:unset;
+    padding-right: 1px;
+    background-color: transparent;
+}
+
+button.options img {
+    /* height: 10px; */
+    width: 15px;
+}
+button#cancel-add-button.button{
+    margin-top: 1em;
+    margin-bottom: 0%;
+}
+div.showOptions{
+    /* display: inline-block;
+     */
+    float:right;
+}
+
+
+div.todoItem:hover {
+    cursor: pointer;
+}
+
+label.clickTodo:hover {
+    cursor: pointer;
+}
+
+/* ========================================== Styling for general buttons =========================================== */
+.button{
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block; 
+    border: 0px;
+    background-color: #FFDFD8;
+    text-align: center;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    outline: none;                      /* Removes outline when clicking a button */
+    transition: 0.2s;                   /* Adds smoother transition to default state from active state, but results in
+                                           more time to bottom-out button (fully shrink button) */
+}
+
+.button:hover {
+    background-color: #eac6be;
+    cursor: pointer;
+}
+
+.button:active {
+    /* The following is for a "shrink effect" on button click*/
+    padding: 0.9em;
+    width: 10em;
+    margin-left: 2em;
+    margin-right: 1.4em;
+    font-size: 0.95em;                  /* For a "shrink effect" with text */
+    text-indent: -0.7em;                /* For a centered "shrink effect" with text */
+}
+/* ================================================================================================================== */
+
+/* ========================================= Styling for specific buttons =========================================== */
+
+/* ------------------------------ Specific styling for increment and decrement buttons ------------------------------ */
+.decAndRes {
+    margin-top: -1em;                   /* Spacing between this and 'Edit Habit: ___' */
+    margin-bottom: 2em;
+}
+
+#decrementHabit, #resetHabit {
+    padding: 0.5em;
+    border-radius: 10px;
+    display: inline-block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    font-style: normal;
+    outline: none;                      /* Removes outline when clicking a button */
+}
+
+#decrementHabit{
+    width: 2.5em;
+    margin-right: 5px;                  /* Spacing between Decrement button and Reset button */
+}
+
+#resetHabit{
+    width: 4em;
+}
+
+#decrementHabit:hover, #resetHabit:hover {
+    background-color: #eac6be;
+    cursor: pointer;
+}
+
+#decrementHabit:active {
+    width: 2.3em;
+    margin-left: 0.1em;
+    margin-right: 0.5em;
+}
+
+#resetHabit:active {
+    width: 3.8em;
+    margin-left: 0.1em;
+}
+
+#deleteHabit {
+    margin:0 auto;
+}
+
+#confirmEdit {
+    margin:0 auto;
+}
+
+/* ----------------------------- Specific styling for giant Dashboard buttons with text ----------------------------- */
+
+#giantAddHabitButton:active, #giantSeeAllHabitsButton:active, #giantAddToDoItemButton:active,  #giantClearAllButton:active {
+    /* The following is for a "shrink effect" on button click*/
+    padding: 0.9em;
+    width: 10em;
+    margin-left: 2em;
+    margin-right: 1.4em;
+    font-size: 0.95em;                  /* For a "shrink effect" with text */
+    text-indent: -0.7em;                /* For a centered "shrink effect" with text */
+}
+
+/* --------------------------- Specific styling for confirm and cancel buttons in popups ---------------------------- */
+
+
+/* ================================================================================================================== */
+.habitL{
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
+    font-size: 12;
+    align-items: center;
+    font-style: normal;
+}
+
+
+.formH{
+    /* margin:10px 0; */
+    padding:0.75em;
+    align-items: center;
+    border-radius:10px;
+    background: #fefefe;
+    box-shadow: inset 0em 0em 0.3em 0.25em #f4f4f4;
+    border: 1px solid #e0e0e0;
+    outline: none;                      /* Removes outline when clicking a button */
+  }
+
+div.TodoFrameContainer h2{
+    display: flex;
+}
+
+div.todoItemsBox{
+    padding: 0em 0.5em;
+    list-style:none;
+}
+
+div.todoItemContainer{
+    height: 4em;
+    font-size: 18px;
+    min-height: 40px;
+    padding: 1em;
+    border-radius: 5px;
+}
+div.todoItemContainer:hover {
+    background-color: #F5F5F5;
+    background-color: #fbe9e7;
+}
+ul.items{
+    margin: 2px;
+    /* list-style: none; */
+    padding: 5px;
+}
+.secondButton{
+
+    width: 180px;
+    padding: 14px;
+    border-radius: 10px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.secondButton:hover {
+    background-color: #eac6be;
+    cursor: pointer;
+}
+
+div.clear-all{
+    padding: 2em;
+    /* padding-left: 10em; */
+    display: block;
+    text-align: center;
+
+}
+div.content.addtodocontent{
+    display: block;
+    text-align: center;
+    margin-bottom: -2em;
+}
+form {
+    margin-top: 3em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .addtodoactions{
+    display: block;
+    text-align: center;
+    margin-left: -.8em;
+}
+
+.addtodocancel{
+    margin:0 auto;
+    display:block;
+    margin-bottom: 1em;
+    margin-top: -3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.edittodocontent{
+    display: block;
+    text-align: center;
+}
+.todoeditform {
+    margin-top: 3em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+ .edittodoactions{
+    display: block;
+    text-align: center;
+    /* margin-left: -.8em; */
+}
+
+.todoeditcancel{
+    margin:0 auto;
+    display:block;
+    margin-bottom: 1em;
+    /* margin-top: -3em; */
+}
+
+.clearbutton{
+    margin:0 auto !important;
+    display:block; 
+}
+
+#cancel-add-button{
+    margin:0 auto;
+    display:block;
+}
+
+button.cancel-add-button.button{
+    margin-top: 1em;
+    margin-bottom: 0%;
+}
+.cancel-add-button{
+    /* margin:0 auto ; */
+    display:block;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncateChecked {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70%;
+}

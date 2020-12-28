@@ -1,0 +1,48 @@
+nav{
+    background-color: #ffffff;
+    position: fixed;
+    border-radius: 15px;
+    left: 0px;
+    width: 60px;
+    margin-left: 1em;
+    margin-top: 5em;
+
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+  }
+  
+  
+  nav button {
+    /* height: 30px; */
+    border: none;
+    background: none;
+    /* padding:unset; */
+    text-align: center;
+  }
+  nav img{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    
+  }
+  
+  ul#sidebar-nav{
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li{
+    list-style: none;
+    padding: 10px 2px;
+  }
+  img.svg{
+  
+    filter: saturate(8);
+    -webkit-filter: saturate(8);
+  }
+  
+
+  .chosen{
+
+    background-color: FFDFD8;
+    border-radius: 15px; 
+  }

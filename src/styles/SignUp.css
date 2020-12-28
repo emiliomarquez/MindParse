@@ -1,0 +1,123 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+/* #root2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position:relative;
+    /* border: 1px solid black;  
+} */
+
+
+
+#logindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 650px;
+    background: white;
+    border-radius: 51px;
+
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;
+}
+
+
+h1{
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h1log{
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    bottom: 25px;
+    position: relative;
+}
+
+input, label {
+    display:block;
+    
+}
+
+p{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(95, 93, 93);
+    font-size: 11px; 
+}
+
+.logininput{
+    /* width:100%; */
+    width: 450px;
+    margin:10px 0;
+    padding:13px;
+    border-radius:16px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    
+}
+
+.logininput:hover {
+    border: 1px solid #aaa;
+  }
+
+form{
+    bottom: 40px;
+    position: relative;
+}
+
+.infotext{
+    
+    bottom: 30px;
+    position: relative;
+    font-size: 12px; 
+    text-align: center;
+
+}
+
+.logButton{
+
+    width: 290px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block; /* change this from inline-block */
+    margin:0 auto; /* this will center  it */
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+
+}
+
+.logButton:hover{
+
+    background-color: #fbd1c8; 
+ 
+}
+
+/* this is the sign button oops */
+#log{   
+    top: 10px;
+    position: relative; 
+}
+
+#sign{
+    top: 0px;
+    position: relative;    
+}

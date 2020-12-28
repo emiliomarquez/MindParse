@@ -1,0 +1,88 @@
+
+
+.userbutton{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.userdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.usernav{
+    margin-top:0em;
+}
+
+.usermodal{
+    text-align: center;
+}
+
+.usermodal{
+    
+}
+.usernamechange{
+    width: 450px;
+    margin:10px 0;
+    padding:13px;
+    border-radius:16px;
+    border: 1px solid rgb(163, 161, 161);
+    transition: .3s border-color;
+}
+
+.usernamechange:hover {
+    border: 1px solid rgb(136, 136, 136);
+  }
+
+.changebutton{
+    width: 290px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block; /* change this from inline-block */
+    margin:0 auto; /* this will center  it */
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.changeactions{
+    margin-top: -3em;
+    margin-bottom: 2em;
+}
+
+.changecancelbutton{
+    width: 290px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block; /* change this from inline-block */
+    margin:0 auto; /* this will center  it */
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+}
+.changeclose{
+    position: relative;
+    right: 21em;
+
+
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    right: -25px;
+    top: -30px;
+    font-size: 3em;
+    background: none;
+    border: none;
+    outline: none;
+    visibility: hidden
+}

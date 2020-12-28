@@ -1,0 +1,49 @@
+button.active {
+    color: #fff;
+    background: #008FFB;
+    border: 1px solid blue;
+    border-bottom: 2px solid blue;
+    border-radius: 2px;
+    padding: 4px 17px;
+}
+
+button.inactive {
+    background: #fff;
+    color: #222;
+    border: 1px solid #e7e7e7;
+    border-bottom: 2px solid #ddd;
+    border-radius: 2px;
+    padding: 4px 17px;
+}
+
+.openButton {
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    text-align: center;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    outline: none;                      /* Removes outline when clicking a button */
+    transition: 0.2s;                   /* Adds smoother transition to default state from active state, but results in
+                                           more time to bottom-out button (fully shrink button) */
+}
+
+
+.openButton:hover {
+    background-color: #eac6be;
+    cursor: pointer;
+}
+
+.openButton:active {
+    /* The following is for a "shrink effect" on button click*/
+    padding: 0.9em;
+    width: 10em;
+    margin-left: 0.4em;
+    margin-right: 0em;
+    font-size: 0.95em;                  /* For a "shrink effect" with text */
+    text-indent: 0.2em;                /* For a centered "shrink effect" with text */
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "MindParse",
+  "description": "A Chrome extension for tracking habit goals, daily tasks, mood, and productivity.",
+  "version": "0.0.1",
+
+  "icons" : {
+    "16": "MindParseIcon.png",
+    "48": "MindParseIcon.png",
+    "128": "MindParseIcon.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "MindParse"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+
+  "permissions" : ["notifications"],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  
+ 
+}

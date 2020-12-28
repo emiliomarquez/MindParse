@@ -1,0 +1,72 @@
+.ui.progress .bar {
+    min-width: 0 !important;
+}
+
+.ui.active.progress .bar {
+    min-width: 0 !important;
+}
+
+.DashboardComp {
+    border-radius: 15px;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;
+    background: white;
+    padding: 22px;
+    padding-left: 30px;
+    width: 100%;
+    height: 175px;
+    /* position: relative; */
+    flex: 1;
+    display: inline-block;
+    margin-left: 2em;
+}
+.WeirdTimerDiv{
+    display: inline-block;
+    /* width:fit-content; */
+    flex:1;
+    width: 82%;
+}
+
+.PopupComp {
+    padding: 6px;
+}
+
+.ProgressBar {
+
+
+}
+
+.Session {
+}
+
+.Time {
+    position: relative;
+    left: 50%;
+    transform: translate(-1em, -.5em);
+    /* margin-right: -10em; */
+}
+
+h2.Time{
+    margin: 0em;
+}
+
+.Icon {
+    float: left;
+    margin: auto;
+    position: relative;
+    height: 25px;
+}
+
+.Bar {
+    margin: auto;
+    position: relative;
+    width: 90%;
+    left: 25px;
+}
+
+.Completed {
+    float: left;
+}
+
+.Stopped {
+    transform: translate(1em);
+}

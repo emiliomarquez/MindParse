@@ -1,0 +1,252 @@
+.body{
+  margin:10px;
+  height:100%;
+  padding-left: 5.5em;
+
+}
+
+.welcome-dash{
+  top: 0;
+  display: block;
+  margin-bottom: 1em;
+  /* border-radius: 15px;
+  box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px; */
+
+  /*background: white; */
+  padding: 10px;
+  /* width: 93%; */
+  /* height: 175px; */
+  margin-left: 2em;
+}
+
+.greetingAndName {
+  margin-top: 0.8em;
+  float: left;
+  margin-bottom: 0em;
+}
+
+.div-greetingPt1 {
+  float:left;
+}
+
+.div-greetingPt2 {
+  float:right;
+}
+
+#greetingPt1 {
+  margin: 0px;
+  font-size: 1.50em;
+  color: #aaaaaa;
+}
+
+#greetingPt2 {
+  font-size: 1.50em;
+  color: #aaaaaa;
+  float: left;
+  text-align: left;
+  margin-top: 1.7em;
+  margin-left: 0.5em;
+}
+
+#dashUsername {
+  font-size: 4em;
+  text-indent: 0.2em;
+  float: left;
+}
+
+.dateTime {
+  float: right;
+  text-align: right;
+  font-family: montserrat,sans-serif;
+  color: #aaaaaa;
+  font-weight: 600;
+  font-style: normal;
+  margin-right: 2em;
+}
+
+#datePt2 {
+  float:bottom;
+  font-size: 4em;
+}
+#datePt1 {
+  float:top;
+  font-size: 1.50em;
+}
+
+/* .welcome h2{
+  text-indent: 5%;
+  margin-left: 10px;
+  font-family: montserrat,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+/* .welcome-dash h1{
+  font-family: montserrat,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: larger;
+} */
+/* nav{
+  background-color: #f1f1f1;
+  position: fixed;
+  border-radius: 15px;
+  top: 0;
+  left: 0px;
+  width: 40px;
+}
+
+
+nav button {
+
+  border: none;
+  background: none;
+
+  text-align: center;
+}
+
+nav img{
+  width: 25px;
+  height: 25px;
+  align-content: center;
+
+}
+
+ul#sidebar-nav{
+  padding: 0;
+  margin: 0;
+}
+nav ul li{
+  list-style: none;
+  padding: 10px 2px;
+}
+img.svg{
+
+  filter: saturate(8);
+  -webkit-filter: saturate(8);
+}
+*/
+
+
+.content{
+  display: block;
+  border-top: none;
+  justify-content: space-between ;
+}
+div.top-half{
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  /* flex: 1; */
+  /* justify-content: inherit; */
+}
+div.bottom-half{
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+  /* flex: 1; */
+  /* justify-content: space-between; */
+}
+
+div.habitFrame{
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+  background: white;
+  padding: 10px;
+  height: auto;
+  flex: 1;
+  margin-right: 4em;
+  /* padding: 2.5em; */
+  /* min-height: auto; */
+}
+
+div.TodoFrameContainer{
+  display: inline-block;
+  /* margin-right: 10px; */
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+  margin-left: 2em;
+  background: white;
+  padding: 10px;
+  /* width: fit-content; */
+  height: fit-content;
+
+  padding: 2.5em;
+  margin-right: 2em;
+
+}
+
+div.Timer{
+  display: inline-block;
+  /* margin: 0 10px; */
+  /* width:fit-content; */
+  /* margin-left: 3em; */
+  flex: 1;
+  /* margin-right: -3.5em; */
+  /* margin: 0em, 0em, 0em, 3em; */
+  padding: 0;
+
+
+}
+div.DashboardComp{
+  border-top: none;
+}
+
+div.moodContainer{
+  border-radius: 15px;
+  box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;
+  background: white;
+  border-top: none;
+  display: inline-block;
+  padding: 10px;
+  width: 60%;
+  height: 175px;
+  align-content: center;
+  /* position: absolute; */
+  flex: 1;
+  margin-right: 2em;
+
+  /* margin-left: 2em; */
+
+}
+div.Quote{
+  display: inline-block;
+  margin: 0 10px;
+  width: 50%;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+  background: white;
+  padding: 15px;
+  height: fit-content;
+}
+
+footer{
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 30px 0px;
+
+}
+
+.popup-content{
+  padding: 20px;
+  border-radius: 15px;
+  /* margin: 30px; */
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  right: -25px;
+  top: -30px;
+  font-size: 3em;
+  background: none;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,211 @@
+#show-mood-button{
+    height: 30px;
+    border: none;
+    background: none;
+}
+#show-mood-button img{
+    width: 25px;
+    height: 25px;
+}
+#show-mood {
+    width: 100%;
+}
+
+#mood-container {
+    /*background-color: #f1f1f1;*/
+    border-radius: 15px;
+    position: fixed;
+    padding: 15px;
+    left: 40px;
+    top: 15px;
+    text-align:center;
+    margin-left: 2.3em;
+    z-index : 1;
+     /*margin: 0 10px;*/
+     width: 50%;
+     justify-content: center;
+     box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+      background: white;
+      height: fit-content;
+}
+label.label{
+    border-radius: 5px;
+}
+div#content{
+    width: 100%;
+    padding: 10px 5px;
+}
+button#submit {
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+button#close{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+button#stats {
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+button#entries {
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+div#mystyle2{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    font-weight:bold;
+    font-family:  montserrat,sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+label#mystyle {
+    color: black;
+    padding: 16px;
+    text-align:center;
+    /* text-emphasis-style: bold; */
+    font-weight:bold;
+    font-family:  montserrat,sans-serif;
+}
+
+    label#mystyle4 {
+    color: black;
+    padding: 12px;
+    text-align:center;
+    font-family:  montserrat,sans-serif;
+}
+  
+label#mystyle3  {
+    background-Color: #ccd0f3;
+    text-align:center;
+    font-family: montserrat,sans-serif;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+    
+label#mystyle5 {
+    background-Color: #ccd0f3;
+    text-align:center;
+    font-family: montserrat,sans-serif;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    font-weight: 600;
+    font-style: normal;
+}
+label.slider{
+    display: inline-block;
+    font-family:  montserrat,sans-serif;
+    margin:5px;
+    text-align: unset;
+}
+label.slider.good{
+    text-align: right;
+    float: right;
+    /* width: 25%; */
+}
+label.slider.bad{
+    /* left:1px; */
+    /* margin:unset; */
+    float: left;
+    text-align: left;
+    /* width: 25%; */
+
+}
+input#good_ans{
+    padding: 20px;
+    display:block;
+    border-radius: 15px;
+    border: 1px solid rgb(57, 56, 56);
+    text-align:center;
+    width: 100%;
+}
+input#worry_ans{
+    padding: 20px;
+    display:block;
+    border-radius: 15px;
+    border: 1px solid rgb(57, 56, 56);
+    text-align:center;
+    width: 100%;
+}
+
+table.font{
+    text-align:center;
+    align-self: center;
+    font-family: montserrat,sans-serif;
+    padding: 14px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-style: normal;
+    height:fit-content;
+}
+table.header{
+    text-align:center;
+    font-family:montserrat,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+#mood-table-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 15px;
+    position: fixed;
+    left: 40px;
+    top: 15px;
+    text-align:center;
+    margin-left: 2.3em;
+    width: 60%;
+    justify-content: left;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+    background: #FFDFD8;
+    height: fit-content;
+}
+
+#mood-table-container td, #mood-table-container th {
+    border: 1px solid #212020;
+    padding: 8px;
+
+}

@@ -1,0 +1,187 @@
+/* This style sheet is meant for the Habit Popups and not clicking the Habit itself.
+ * e.g. Add Habit, Edit Habit
+ */
+
+.habitLabel{
+    color: black;
+    padding: 8px;
+    font-size: 35px;
+    text-align:center;
+    align-items: center;
+    font-weight: 600;
+    font-family: montserrat,sans-serif;
+
+}
+.editHabitFormElement{
+    /* margin:10px 0; */
+    padding:0.75em;
+    align-items: center;
+    border-radius:10px;
+    background: #fefefe;
+    box-shadow: inset 0em 0em 0.3em 0.25em #f4f4f4;
+    border: 1px solid #e0e0e0;
+    outline: none;                      /* Removes outline when clicking a button */
+}
+
+.button{
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    /*margin-left: 3px;*/
+    padding-left: 3em;
+
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.habitL{
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    font-style: normal;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labelHabit{
+    color: black;
+    padding: 8px;
+    font-size: 35px;
+    text-align:center;
+    font-weight: 600;
+    font-family: montserrat,sans-serif;
+
+}
+
+.formH{
+    /* margin:10px 0; */
+    padding:8px;
+    border-radius:10px;
+    border: 1px solid rgb(57, 56, 56);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.addcontent{
+    display: block;
+    text-align: center;
+}
+form {
+    margin-top: 3em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+.addcontent.habitName{
+    margin-top: 0em;
+
+}
+.addactions{
+    display: block;
+    text-align: center;
+    /* margin-left: -1em; */
+}
+.addbutton{
+    margin: 0 auto !important;
+    display:block;
+}
+
+.addcancel{
+    margin: 0 auto !important;
+    display:block;
+    margin-bottom: 1em;
+    margin-top: -.6em;
+
+
+}
+
+.hue-horizontal{
+    margin:0 auto;
+    display:block
+}
+
+.pinnedDiv{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#isPinned{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .6em;
+}
+
+/* Edit habits box */
+
+
+.edithabitcontent{
+    display: block;
+    text-align: center;
+}
+.edithabitform {
+    margin-top: 3em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  .edithabitaction{
+    display: block;
+    text-align: center;
+    /* margin-left: -1em; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edithabitdelete{
+    margin: 0 auto !important;
+    display:block;
+    /* margin-bottom: 1em; */
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+.actions{
+    display: block;
+    text-align: center;
+
+}
+
+.allbutton{
+    margin: 0 auto !important;
+    display:block;
+}

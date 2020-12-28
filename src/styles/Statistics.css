@@ -1,0 +1,133 @@
+.body{
+    margin:10px;
+    height:100%;
+    padding-left: 5.5em;
+
+}
+
+
+.welcome-stats{
+    top: 0;
+    display: block;
+    margin-bottom: 2em;
+    /* border-radius: 15px;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px; */
+
+    /*background: white; */
+    padding: 10px;
+    /* width: 93%; */
+    /* height: 175px; */
+    margin-left: 2em;
+}
+.welcome h2{
+    /* text-indent: 5%;*/
+    margin-left: 10px;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+div.content.statscontent{
+    display: flex;
+    flex-direction: row;
+    border-top: none;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-left: 2em;
+
+}
+
+.statscontent{
+    text-align: center;
+}
+div.top-half{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2em;
+    justify-content: inherit;
+}
+div.bottom-half{
+    display: flex;
+    margin-bottom: 2em;
+    width: 100%;
+    justify-content: space-between;
+}
+div.habitFrame{
+    display: inline-block;
+    margin: 0 10px;
+    width: 50%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+    background: white;
+    padding: 10px;
+    height: fit-content;
+}
+
+div.TodoFrameContainer{
+    display: inline-block;
+    margin-right: 10px;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;;
+    margin-left: 0em;
+    background: white;
+    padding: 10px;
+    /* width: fit-content; */
+    height: fit-content;
+}
+
+div.Timer{
+    display: inline-block;
+    width:fit-content;
+    margin-left: -2.1em;                        /*TEMPORARY FIX UNTIL SOMEONE CAN FIX DIV CONTAINERS*/
+    padding-right: 10em;
+    margin-right: -9.1em;                        /*TEMPORARY FIX UNTIL SOMEONE CAN FIX DIV CONTAINERS*/
+}
+div.DashboardComp{
+    border-top: none;
+}
+
+div.moodContainer{
+    border-radius: 15px;
+    box-shadow: rgba(27, 28, 29, 0.2) 0px 7px 29px 0px;
+    background: white;
+    border-top: none;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    height: 175px;
+    align-content: center;
+    margin-left: 0em;                        /*TEMPORARY FIX UNTIL SOMEONE CAN FIX DIV CONTAINERS*/
+}
+
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 30px 0px;
+
+}
+
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    right: -25px;
+    top: -30px;
+    font-size: 3em;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.openButton,#entries,#stats, .habitStatsButton{
+    margin: 0 auto !important;
+    display:block;
+}
+
+.statsnav{
+    margin-top:0em;
+}

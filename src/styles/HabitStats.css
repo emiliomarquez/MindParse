@@ -1,0 +1,31 @@
+.habitStatsButton {
+    width: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    display:block;
+    border: 0px;
+    background-color: #FFDFD8;
+    text-align: center;
+    font-family: montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    outline: none;                      /* Removes outline when clicking a button */
+    transition: 0.2s;                   /* Adds smoother transition to default state from active state, but results in
+                                           more time to bottom-out button (fully shrink button) */
+}
+
+
+.habitStatsButton:hover {
+    background-color: #eac6be;
+    cursor: pointer;
+}
+
+.habitStatsButton:active {
+    /* The following is for a "shrink effect" on button click*/
+    padding: 0.9em;
+    width: 10em;
+    margin-left: 0.4em;
+    margin-right: 0em;
+    font-size: 0.95em;                  /* For a "shrink effect" with text */
+    text-indent: 0.2em;                /* For a centered "shrink effect" with text */
+}
